@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-04-09 18:39+0900\n"
+"POT-Creation-Date: 2020-04-09 19:37+0900\n"
 "PO-Revision-Date: 2020-04-08 15:41+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: es\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.8.0\n"
 
-#: app/__init__.py:19
+#: app/__init__.py:21
 msgid "Please log in to access this page."
 msgstr "Por favor ingrese para acceder a esta página."
 
@@ -107,7 +107,7 @@ msgstr "Enviar"
 msgid "Say something"
 msgstr "Dí algo"
 
-#: app/main/forms.py:29 app/main/routes.py:142
+#: app/main/forms.py:29 app/main/routes.py:143
 msgid "Search"
 msgstr ""
 
@@ -115,55 +115,63 @@ msgstr ""
 msgid "Message"
 msgstr ""
 
-#: app/main/routes.py:36
+#: app/main/routes.py:37
 msgid "Your post is now live!"
 msgstr "¡Tu artículo ha sido publicado!"
 
-#: app/main/routes.py:45 app/templates/base.html:21
+#: app/main/routes.py:46 app/templates/base.html:21
 msgid "Home"
 msgstr "Inicio"
 
-#: app/main/routes.py:59 app/templates/base.html:22
+#: app/main/routes.py:60 app/templates/base.html:22
 msgid "Explore"
 msgstr "Explorar"
 
-#: app/main/routes.py:85
+#: app/main/routes.py:86
 msgid "Your changes have been saved."
 msgstr "Tus cambios han sido salvados."
 
-#: app/main/routes.py:90 app/templates/edit_profile.html:5
+#: app/main/routes.py:91 app/templates/edit_profile.html:5
 msgid "Edit Profile"
 msgstr "Editar Perfil"
 
-#: app/main/routes.py:98 app/main/routes.py:113
+#: app/main/routes.py:99 app/main/routes.py:114
 #, python-format
 msgid "User %(username)s not found."
 msgstr "El usuario %(username)s no ha sido encontrado."
 
-#: app/main/routes.py:101
+#: app/main/routes.py:102
 msgid "You cannot follow yourself!"
 msgstr "¡No te puedes seguir a tí mismo!"
 
-#: app/main/routes.py:105
+#: app/main/routes.py:106
 #, python-format
 msgid "You are following %(username)s!"
 msgstr "¡Ahora estás siguiendo a %(username)s!"
 
-#: app/main/routes.py:116
+#: app/main/routes.py:117
 msgid "You cannot unfollow yourself!"
 msgstr "¡No te puedes dejar de seguir a tí mismo!"
 
-#: app/main/routes.py:120
+#: app/main/routes.py:121
 #, python-format
 msgid "You are not following %(username)s."
 msgstr "No estás siguiendo a %(username)s."
 
-#: app/main/routes.py:161
+#: app/main/routes.py:163
 msgid "Your message has been sent."
 msgstr ""
 
-#: app/main/routes.py:163
+#: app/main/routes.py:165
 msgid "Send Message"
+msgstr ""
+
+#: app/main/routes.py:201
+msgid "An export task is currently in progress"
+msgstr ""
+
+#: app/main/routes.py:203
+msgid "Exporting posts..."
 msgstr ""
 
 #: app/templates/_post.html:16
@@ -187,15 +195,15 @@ msgstr "Ingresar"
 msgid "Messages"
 msgstr ""
 
-#: app/templates/base.html:40
+#: app/templates/base.html:45
 msgid "Profile"
 msgstr "Perfil"
 
-#: app/templates/base.html:41
+#: app/templates/base.html:46
 msgid "Logout"
 msgstr "Salir"
 
-#: app/templates/base.html:78
+#: app/templates/base.html:95
 msgid "Error: Could not contact server."
 msgstr ""
 
@@ -204,11 +212,11 @@ msgstr ""
 msgid "Hi, %(username)s!"
 msgstr "¡Hola, %(username)s!"
 
-#: app/templates/index.html:17 app/templates/user.html:39
+#: app/templates/index.html:17 app/templates/user.html:50
 msgid "Newer posts"
 msgstr "Artículos siguientes"
 
-#: app/templates/index.html:22 app/templates/user.html:44
+#: app/templates/index.html:22 app/templates/user.html:55
 msgid "Older posts"
 msgstr "Artículos previos"
 
@@ -255,19 +263,23 @@ msgstr "%(count)d seguidores"
 msgid "%(count)d following"
 msgstr "siguiendo a %(count)d"
 
-#: app/templates/user.html:15
+#: app/templates/user.html:17
 msgid "Edit your profile"
 msgstr "Editar tu perfil"
 
-#: app/templates/user.html:17 app/templates/user_popup.html:21
+#: app/templates/user.html:23
+msgid "Export your posts"
+msgstr ""
+
+#: app/templates/user.html:28 app/templates/user_popup.html:21
 msgid "Follow"
 msgstr "Seguir"
 
-#: app/templates/user.html:19 app/templates/user_popup.html:25
+#: app/templates/user.html:30 app/templates/user_popup.html:25
 msgid "Unfollow"
 msgstr "Dejar de seguir"
 
-#: app/templates/user.html:25
+#: app/templates/user.html:36
 msgid "Send private message"
 msgstr ""
 
